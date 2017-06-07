@@ -1,0 +1,38 @@
+<!doctype HTML>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <title>Document</title>
+
+</head>
+<body>
+<script>
+
+ function kleur() {
+     kleuren=prompt("what color must it be m8");
+     document.getElementById("voorbeeld").style.backgroundColor=kleuren;
+ }
+ function verwijder() {
+
+     document.getElementById("voorbeeld").style.display = "none" ;
+
+ }
+
+
+</script>
+
+
+
+<button onclick="verwijder()">delete</button>
+<button onclick="kleur();">Klik hier om de kleur te veranderen</button>
+
+<div id="voorbeeld" style="width: 480px; height: 480px; background-color: black;"></div>
+
+
+</body>
+
+
+
+
+</html>
